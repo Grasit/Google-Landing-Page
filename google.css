@@ -1,0 +1,84 @@
+*{
+    				box-sizing: border-box;
+    }
+    .div8 {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+    
+ 
+    .div1{
+    				display:block;
+    				margin: 0 auto;
+    				width:50%;
+    				}
+    .div2{
+    				margin: 0 auto;
+    			 width:50%;
+    			 border-radius:50px;
+    				}
+    		.div3{
+    		   	margin: 0 auto;
+    					width:50%;
+    						 }
+    	.div4 a{
+    					   font-size:small;  								   color:blue;
+    					   text-decoration: none;
+    					   
+    					   	}
+    	.link1{
+    			color: blue;
+    				font-size:1em;
+    					margin-left:50px;
+    						}
+    	.underlined-text{
+    							text-decoration: none;
+    							margin-left:20px;
+    							color:black;
+    												}
+    		.material-icons{
+    								float:right;
+    								margin-right:7px;
+    								}
+    			.name{
+    					float: right;
+    			
+    								}
+    																							
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display:flex;
+         min-height: 100vh;
+         flex-direction: column;
+         }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: black;
+         background:#f8f8f8;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 100%;
+      }
+      
+      .footer-body {
+         margin-bottom: 10px;
+         padding: 10px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      
+      .footer-body a {																						
+    					color: black;
+         text-decoration: none;
+         margin-left:35px;         
+         padding-top:20px;
+         margin-bottom: 7px;
+         display:inline;
+      }																		
